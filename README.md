@@ -8,7 +8,7 @@ Una vez inicies el entorno con el comando vagrant up, estarás listo para ejecut
 ## Cómo usar
 
 ### Requisitos Previos
-- Instalar Vagrant y VirtualBox.
+- Instalar [Ansible](https://www.ansible.com/), [Vagrant](https://developer.hashicorp.com/vagrant/docs/installation) y  [VirtualBox](https://www.virtualbox.org/).
 - Tener una clave SSH ubicada en: ~/.ssh/id_rsa.pub
 
 ### Iniciar el Entorno
