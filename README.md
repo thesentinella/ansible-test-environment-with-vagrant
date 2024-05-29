@@ -11,7 +11,7 @@ Una vez inicies el entorno con el comando vagrant up, estarás listo para ejecut
 - Instalar Vagrant y VirtualBox.
 - Tener una clave SSH ubicada en: ~/.ssh/id_rsa.pub
 
-### Levantar el Entorno
+### Iniciar el Entorno
 Iniciar el host de destino con Vagrant:
 ```
 vagrant up
@@ -34,7 +34,7 @@ Salida:
 }
 ```
 
-Encontrarás una colección de playbooks en su directorio listos para usarse. El objetivo del playbook se define como una variable. Para que coincida con el host actual de Vagrant, necesitas pasar el objetivo de la siguiente manera:
+Encontrarás una colección de playbooks en su directorio listos para usarse. El target del playbook se define como una variable. Para que coincida con el host actual de Vagrant, necesitas pasar el target de la siguiente manera:
 ```
 ansible-playbook -i inventory playbooks/addcronjob.yaml --extra-vars "target=myhosts"
 ```
